@@ -12,6 +12,8 @@ Instructions:
 
 Command to run program with its own terminal (can even be configured to run from startup)
 
+    gnome-terminal -x bash -c "main; exec bash"
+    
     gnome-terminal -x bash -c "<name of executable file>; exec bash"
 
 Pre requisites : ProtonVPN CLI on Unix
